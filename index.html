@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Career Experience and Feedback Survey"
+    >
+
+    <title>Career Experience Survey</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="site-header">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                CAREER INSIGHTS
+            </p>
+
+            <h1>
+                Career Experience Survey
+            </h1>
+
+            <p class="intro">
+                Help us understand your education, skills,
+                career goals and professional experience.
+                Your feedback helps us improve our services.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main class="container">
+
+        <!-- FORM INTRODUCTION -->
+
+        <section class="form-introduction">
+
+            <h2>
+                Tell us about yourself
+            </h2>
+
+            <p>
+                Please complete the form below. Fields marked
+                with <span aria-hidden="true">*</span> are required.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             FORM
+        ========================== -->
+
+        <form
+            class="survey-form"
+            action="#"
+            method="post"
+            enctype="multipart/form-data"
+        >
+
+
+            <!-- =========================
+                 SECTION 1: PERSONAL INFO
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        01
+                    </span>
+
+                    <div>
+                        <h2>
+                            Personal Information
+                        </h2>
+
+                        <p>
+                            Basic information about you.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+                    <!-- FULL NAME -->
+
+                    <div class="form-group full-width">
+
+                        <label for="full-name">
+                            Full Name
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="fullName"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            minlength="2"
+                            maxlength="100"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="9876543210"
+                            pattern="[6-9][0-9]{9}"
+                            title="Enter a valid 10-digit Indian mobile number starting with 6, 7, 8 or 9."
+                            autocomplete="tel"
+                            required
+                        >
+
+                        <small>
+                            Enter a 10-digit mobile number.
+                        </small>
+
+                    </div>
+
+
+                    <!-- DATE OF BIRTH -->
+
+                    <div class="form-group">
+
+                        <label for="dob">
+                            Date of Birth
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="date"
+                            id="dob"
+                            name="dateOfBirth"
+                            autocomplete="bday"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- CITY -->
+
+                    <div class="form-group">
+
+                        <label for="city">
+                            City
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            name="city"
+                            placeholder="Enter your city"
+                            autocomplete="address-level2"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- COUNTRY -->
+
+                    <div class="form-group">
+
+                        <label for="country">
+                            Country
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <select
+                            id="country"
+                            name="country"
+                            required
+                        >
+
+                            <option value="">
+                                Select your country
+                            </option>
+
+                            <option value="india">
+                                India
+                            </option>
+
+                            <option value="usa">
+                                United States
+                            </option>
+
+                            <option value="uk">
+                                United Kingdom
+                            </option>
+
+                            <option value="canada">
+                                Canada
+                            </option>
+
+                            <option value="australia">
+                                Australia
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 2: EDUCATION
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Education
+                        </h2>
+
+                        <p>
+                            Tell us about your educational background.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+                    <!-- QUALIFICATION -->
+
+                    <div class="form-group">
+
+                        <label for="qualification">
+                            Highest Qualification
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <select
+                            id="qualification"
+                            name="qualification"
+                            required
+                        >
+
+                            <option value="">
+                                Select qualification
+                            </option>
+
+                            <option value="school">
+                                School
+                            </option>
+
+                            <option value="diploma">
+                                Diploma
+                            </option>
+
+                            <option value="bachelors">
+                                Bachelor's Degree
+                            </option>
+
+                            <option value="masters">
+                                Master's Degree
+                            </option>
+
+                            <option value="phd">
+                                PhD
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- FIELD OF STUDY -->
+
+                    <div class="form-group">
+
+                        <label for="field">
+                            Field of Study
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="field"
+                            name="fieldOfStudy"
+                            placeholder="e.g. Computer Science"
+                            maxlength="100"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- INSTITUTION -->
+
+                    <div class="form-group full-width">
+
+                        <label for="institution">
+                            Institution
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="text"
+                            id="institution"
+                            name="institution"
+                            placeholder="College or university name"
+                            maxlength="150"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- GRADUATION DATE -->
+
+                    <div class="form-group">
+
+                        <label for="graduation-date">
+                            Graduation Date
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="date"
+                            id="graduation-date"
+                            name="graduationDate"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- GPA -->
+
+                    <div class="form-group">
+
+                        <label for="gpa">
+                            GPA / CGPA
+                        </label>
+
+                        <input
+                            type="number"
+                            id="gpa"
+                            name="gpa"
+                            placeholder="e.g. 8.5"
+                            min="0"
+                            max="10"
+                            step="0.01"
+                        >
+
+                        <small>
+                            Enter a value between 0 and 10.
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 3: EMPLOYMENT
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Employment
+                        </h2>
+
+                        <p>
+                            Tell us about your current professional status.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMPLOYMENT STATUS -->
+
+                <fieldset>
+
+                    <legend>
+                        Current Employment Status
+                        <span aria-hidden="true">*</span>
+                    </legend>
+
+
+                    <div class="option-grid">
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="employmentStatus"
+                                value="student"
+                                required
+                            >
+
+                            <span>
+                                Student
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="employmentStatus"
+                                value="employed"
+                            >
+
+                            <span>
+                                Employed
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="employmentStatus"
+                                value="self-employed"
+                            >
+
+                            <span>
+                                Self-employed
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="employmentStatus"
+                                value="unemployed"
+                            >
+
+                            <span>
+                                Currently unemployed
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- YEARS OF EXPERIENCE -->
+
+                <div class="form-group">
+
+                    <label for="experience">
+                        Years of Professional Experience
+                    </label>
+
+                    <input
+                        type="number"
+                        id="experience"
+                        name="experience"
+                        min="0"
+                        max="50"
+                        step="1"
+                        placeholder="e.g. 2"
+                    >
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 4: JOB PREFERENCES
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Career Preferences
+                        </h2>
+
+                        <p>
+                            Tell us what kind of opportunities interest you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JOB TYPE -->
+
+                <fieldset>
+
+                    <legend>
+                        Preferred Job Type
+                        <span aria-hidden="true">*</span>
+                    </legend>
+
+
+                    <div class="option-grid">
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="jobType"
+                                value="full-time"
+                                required
+                            >
+
+                            <span>
+                                Full-time
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="jobType"
+                                value="part-time"
+                            >
+
+                            <span>
+                                Part-time
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="jobType"
+                                value="internship"
+                            >
+
+                            <span>
+                                Internship
+                            </span>
+
+                        </label>
+
+
+                        <label class="option-card">
+
+                            <input
+                                type="radio"
+                                name="jobType"
+                                value="freelance"
+                            >
+
+                            <span>
+                                Freelance
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- WORK LOCATION -->
+
+                <div class="form-group">
+
+                    <label for="work-location">
+                        Preferred Work Location
+                        <span aria-hidden="true">*</span>
+                    </label>
+
+                    <select
+                        id="work-location"
+                        name="workLocation"
+                        required
+                    >
+
+                        <option value="">
+                            Select preference
+                        </option>
+
+                        <option value="onsite">
+                            On-site
+                        </option>
+
+                        <option value="remote">
+                            Remote
+                        </option>
+
+                        <option value="hybrid">
+                            Hybrid
+                        </option>
+
+                        <option value="flexible">
+                            Flexible
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- EXPECTED SALARY -->
+
+                <div class="form-group">
+
+                    <label for="salary">
+                        Expected Annual Salary (₹)
+                    </label>
+
+                    <input
+                        type="number"
+                        id="salary"
+                        name="salary"
+                        min="0"
+                        max="100000000"
+                        step="1000"
+                        placeholder="e.g. 500000"
+                    >
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 5: TECHNOLOGY
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        05
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Technology Skills
+                        </h2>
+
+                        <p>
+                            Select the technologies you have experience with.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <fieldset>
+
+                    <legend>
+                        Technologies you know
+                    </legend>
+
+
+                    <div class="checkbox-grid">
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="html"
+                            >
+
+                            <span>
+                                HTML
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="css"
+                            >
+
+                            <span>
+                                CSS
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="javascript"
+                            >
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="python"
+                            >
+
+                            <span>
+                                Python
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="java"
+                            >
+
+                            <span>
+                                Java
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="cpp"
+                            >
+
+                            <span>
+                                C++
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="react"
+                            >
+
+                            <span>
+                                React
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="node"
+                            >
+
+                            <span>
+                                Node.js
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="sql"
+                            >
+
+                            <span>
+                                SQL
+                            </span>
+
+                        </label>
+
+
+                        <label class="checkbox-option">
+
+                            <input
+                                type="checkbox"
+                                name="skills"
+                                value="git"
+                            >
+
+                            <span>
+                                Git / GitHub
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 6: EXPERIENCE
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        06
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Experience Rating
+                        </h2>
+
+                        <p>
+                            Rate your overall career preparation experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="rating-box">
+
+                    <label for="rating">
+
+                        How would you rate your
+                        overall experience?
+
+                    </label>
+
+
+                    <div class="range-wrapper">
+
+                        <span>1</span>
+
+                        <input
+                            type="range"
+                            id="rating"
+                            name="rating"
+                            min="1"
+                            max="10"
+                            value="5"
+                        >
+
+                        <span>10</span>
+
+                    </div>
+
+                    <p class="range-description">
+                        1 = Very poor &nbsp; | &nbsp;
+                        10 = Excellent
+                    </p>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 7: AVAILABILITY
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        07
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Availability
+                        </h2>
+
+                        <p>
+                            Tell us when you are available.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-grid">
+
+                    <!-- START DATE -->
+
+                    <div class="form-group">
+
+                        <label for="start-date">
+                            Available From
+                            <span aria-hidden="true">*</span>
+                        </label>
+
+                        <input
+                            type="date"
+                            id="start-date"
+                            name="availableFrom"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- TIME -->
+
+                    <div class="form-group">
+
+                        <label for="preferred-time">
+                            Preferred Contact Time
+                        </label>
+
+                        <input
+                            type="time"
+                            id="preferred-time"
+                            name="preferredTime"
+                        >
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 8: RESUME
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        08
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Documents
+                        </h2>
+
+                        <p>
+                            Upload your resume if available.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="resume">
+                        Resume
+                    </label>
+
+                    <input
+                        type="file"
+                        id="resume"
+                        name="resume"
+                        accept=".pdf,.doc,.docx"
+                    >
+
+                    <small>
+                        Accepted formats: PDF, DOC and DOCX.
+                    </small>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 9: FEEDBACK
+            ========================== -->
+
+            <section class="form-section">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        09
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            Additional Feedback
+                        </h2>
+
+                        <p>
+                            Share anything else you would like us to know.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="feedback">
+                        Your Feedback
+                        <span aria-hidden="true">*</span>
+                    </label>
+
+                    <textarea
+                        id="feedback"
+                        name="feedback"
+                        rows="8"
+                        minlength="20"
+                        maxlength="1000"
+                        placeholder="Write your feedback here..."
+                        required
+                    ></textarea>
+
+                    <small>
+                        Minimum 20 characters. Maximum 1000 characters.
+                    </small>
+
+                </div>
+
+
+                <!-- WEBSITE -->
+
+                <div class="form-group">
+
+                    <label for="portfolio">
+                        Portfolio Website
+                    </label>
+
+                    <input
+                        type="url"
+                        id="portfolio"
+                        name="portfolio"
+                        placeholder="https://example.com"
+                    >
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =========================
+                 SECTION 10: CONSENT
+            ========================== -->
+
+            <section class="form-section consent-section">
+
+                <fieldset>
+
+                    <legend>
+                        Confirmation
+                    </legend>
+
+
+                    <label class="consent-option">
+
+                        <input
+                            type="checkbox"
+                            id="consent"
+                            name="consent"
+                            value="yes"
+                            required
+                        >
+
+                        <span>
+                            I confirm that the information provided
+                            in this form is accurate and complete.
+                            <span aria-hidden="true">*</span>
+                        </span>
+
+                    </label>
+
+                </fieldset>
+
+            </section>
+
+
+
+            <!-- =========================
+                 FORM ACTIONS
+            ========================== -->
+
+            <div class="form-actions">
+
+                <button
+                    type="reset"
+                    class="secondary-button"
+                >
+                    Clear Form
+                </button>
+
+
+                <button
+                    type="submit"
+                    class="primary-button"
+                >
+                    Submit Survey
+                </button>
+
+            </div>
+
+
+        </form>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Career Experience Survey
+            </p>
+
+            <p>
+                Built with semantic HTML5 and native browser validation.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
